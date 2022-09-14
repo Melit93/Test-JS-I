@@ -71,7 +71,7 @@ function sonIguales(x, y) {
   // Tu código: 
   if (x == y){
     return true;
-    } else { 
+    } else {  
       return false;
     }
 }
@@ -206,7 +206,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Cristian" -> "Soy Cristian"
   // Tu código:
-  
+  return (nombre + " " + apellido);
 }
 
 function obtenerSaludo(nombre) {
@@ -229,9 +229,9 @@ function deEuroAdolar(euro) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  let area = base*altura;
+  return (alto * ancho)
 
-  return area;
+  return alto * ancho;
 }
 
 function retornarPerimetro(lado) {
